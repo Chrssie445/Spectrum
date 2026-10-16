@@ -63,3 +63,180 @@ nav {
     text-align: center;
 }
 
+.exhibitions {
+    background-color: #17324d;
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 20px;
+
+}
+.exhibition-intro {
+    font-family: "Cinzel", sans-serif;
+    font-size: 16px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    
+}
+
+.exhibitions h2 {
+    font-family: "Cinzel", sans-serif;
+    font-size: 36px;
+    color: whitesmoke;
+    margin: 0;
+    text-transform: uppercase;
+
+}
+.exhibition-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    width: 100%;
+    padding: 40px 3%;
+    box-sizing: border-box;
+}
+
+.exhibition-card {
+    flex: 1;
+    max-width: 350px;
+    background-color: whitesmoke;
+
+}
+
+.exhibition-card h3 {
+    font-family: "Cinzel", sans-serif;
+    color:#17324d;
+    font-size: 22px;
+    margin: 15px;
+}
+.exhibition-card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    display: block;
+}
+
+.exhibition-card p {
+    font-family: "Poppins", sans-serif;
+    color: #17324d;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 15px 20px;
+}
+
+.exhibition-card .card {
+    display: inline-block;
+  background-color: #17324d;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 15px 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+
+}
+
+.visit-section {
+  padding: 30px 20px;
+  background-color:#FAFAFA;
+}
+
+.visit-section h2 {
+  font-family: "Cinzel", sans-serif;
+  font-size: 36px;
+  color: #17324d;
+  text-transform: uppercase;
+ margin-bottom: 10px;
+}
+
+.visit-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #17324d;
+  color: whitesmoke;
+  padding: 20px;
+}
+
+.visit-column {
+  flex: 1;
+}
+
+.visit-column h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: whitesmoke;
+  margin-top: 0;
+  
+}
+
+.visit-column p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.visit-accessability {
+ text-align: right;
+  
+}
+
+.visit-button {
+  display: inline-block;
+  background-color: 17324d;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 12px 20px;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.why-visit-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #17324d;
+    color: whitesmoke;
+  padding: 30px 
+ 
+}
+
+.sunflower-image {
+    width: 140px;
+    height: 190px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.why-visit-text {
+    flex: 1;
+}
+
+.why-visit h2 {
+    font-family: "Cinzel", sans-serif;
+    color: #17324d;
+    font-size: 36px;
+    margin: 0px;
+    text-transform: uppercase;
+    padding: 30px 20px 15px;
+}
+
+.why-visit h3 {
+    font-family: "Poppins", sans-serif;
+    color: whitesmoke;
+    font-size: 18px;
+    margin: 0 0 5px;
+}
+
+.why-visit-text p {
+    font-family: "Poppins", sans-serif;
+    color: whitesmoke;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 0 18px;
+}
