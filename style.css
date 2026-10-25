@@ -178,6 +178,24 @@ nav {
  margin-bottom: 10px;
 }
 
+.visti-hero {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.visit-hero h1 {
+    font-size: 36px;
+    margin: 0 0 20px;
+}
+
+.visit-hero img {
+    width: 100%;
+    max-width: 900 px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 .home-visit-info {
   display: flex;
   justify-content: space-between;
@@ -371,6 +389,14 @@ nav {
     font-family: "Poppins", sans-serif;
     color: #17324d;
     line-height: 1,6;
+}
+
+.discovery-intro img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+    margin: 30px auto 0;
 }
 
 .experience {
@@ -677,10 +703,18 @@ padding: 25px 20px 100px;
 
 
     /* NAVIGATION */
-        nav {
+        .nav {
             flex-direction: column;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
+            width: 100%;
+        }
+
+        .nav a {
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding: 8px 0;
         }
 
         .hero h2 {
@@ -707,6 +741,12 @@ padding: 25px 20px 100px;
         }
         
         /*Plan Your Visit */
+
+        .home-visit-info {
+            flex-direction: column;
+            gap: 20px;
+        }
+
         .visit-info {
             flex-direction: column;
             align-items: center;
@@ -719,6 +759,20 @@ padding: 25px 20px 100px;
 
         .visit-accessability {
             text-align: left;
+        }
+
+        .visit-hero {
+            padding: 20px 15px;
+        }
+
+        .visit-hero h1 {
+            font-size: 28px;
+            line-height: 1.2;
+        }
+
+        .visit-hero img {
+            width: 100%;
+            height: auto;
         }
 
         /*Why Visit Spectrum */
