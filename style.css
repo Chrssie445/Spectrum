@@ -721,6 +721,23 @@ padding: 25px 20px 100px;
             font-size: 28px;
         }
 
+        .header {
+            height: auto;
+            min-height: 0;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px 15px;
+        }
+
+        .logo {
+            position: static;
+            transform: none;
+            width: 220 px;
+            margin: 0 auto 20px;
+        }
+
+        
+
         /*CURRENT EXHIBITIONS */
         .exhibition-cards {
             flex-direction: column;
